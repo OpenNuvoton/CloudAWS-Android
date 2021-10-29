@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:title="AWS"
+        >
+        <ListPreference
+                app:key="pref_aws_region"
+                app:title="AWS Host Region"
+                app:entries="@array/region_name"
+                app:entryValues="@array/region_code"
+                app:defaultValue="us-east-2"
+                app:summary="%s"
+            />
+        <EditTextPreference
+                app:key="pref_aws_cognito_pool_id"
+                app:title="AWS Cognito Identity Pool ID"
+                app:useSimpleSummaryProvider="true"
+                app:defaultValue="us-east-2:f7c9d0c0-2d71-4395-902d-6e0679af3d09"
+
+            />
+<!--        app:defaultValue="us-east-1:9e41d4ca-03a7-4af0-a6ec-0bc5b581478"-->
+
+        <EditTextPreference
+                app:key="pref_aws_iot_endpoint"
+                app:title="AWS IoT Endpoint"
+                app:useSimpleSummaryProvider="true"
+                app:defaultValue="https://a1fljoeglhtf61-ats.iot.us-east-2.amazonaws.com"
+            />
+        <EditTextPreference
+                app:key="pref_aws_iot_thing_name"
+                app:title="AWS IoT Thing Name"
+                app:useSimpleSummaryProvider="true"
+                app:defaultValue="Nuvoton-Mbed-D001"
+            />
+    </PreferenceCategory>
+
+
+
+</androidx.preference.PreferenceScreen>

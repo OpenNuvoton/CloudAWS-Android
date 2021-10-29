@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-android-sdk-iot:2.12.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-iot/2.12.2/a6f256c313167657e382849604b03a3875316289/aws-android-sdk-iot-2.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-iot/2.12.2/cb9af147db3e7b5d0e44ee6a06cd57231c61204b/aws-android-sdk-iot-2.12.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-iot/2.12.2/2cf625c7057153cede5a3efd3529fea160e12738/aws-android-sdk-iot-2.12.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
